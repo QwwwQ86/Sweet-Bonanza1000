@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Mouse+Memoirs&display=swap');
+
+
+body {
+    font-family: "Kadwa", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(imge.file/e0ddd049-9803-4086-84f2-fe0476f06f12.webp);
+   background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+}
+.nav{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #de43de;
+    box-shadow: 0 0 20px rgb(142, 33, 210);
+}
+.logo {
+    width: 80px;
+  height: 80px;
+  border: 1px solid white;
+  border-radius: 100%;
+  box-shadow:  0 0  30px white, 0 0  60px white;
+}
+
+.nav ul {
+    list-style: none;
+}
+.nav ul li {
+   display: inline-block;
+   padding: 10px  30px;
+
+
+}
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(239, 231, 240);
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: inherit;
+}
+.nav ul li a:hover {
+   color:  #f9007c; 
+   text-shadow: 0 0  10px white,  0 0  30px white;
+}
+.nav-dow {
+    background-color: #d83c8a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.4em;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: inherit;
+    border-radius: 35px;
+
+}
+.nav-dow, .nav-reg  {
+    margin-left: 30px;
+}
+.nav-dow:hover {
+    background-color: #f9007c;
+    box-shadow:  0 0  30px white;
+    text-shadow: 0 0  40px white;
+}
+.nav-reg {
+    background-color: #d83c8a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.4em;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: inherit;
+    border-radius: 35px;
+    margin-right: 60px;
+    
+}
+.nav-reg:hover {
+    background-color: #f9007c;
+    box-shadow:  0 0  30px white;
+    text-shadow: 0 0  40px white;
+}
+
+.hero {
+    text-align: center;
+    font-family:inherit;
+}
+.hero h1 {
+    font-size:70px ;
+    color: #ffffff;
+}
+.hero p {
+    color: #fff;
+    font-size: 23px;
+
+}
+.img-button button {
+    position: relative;
+}
+.bonus-button3 {
+    position: absolute;
+    bottom:  177px;
+    left: 38%;
+    background-color:#00f921;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 2.4em;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: inherit;
+    border-radius: 47px;
+   
+
+}
+
+.bonus-button2 {
+    position: absolute;
+    bottom:  177px;
+    left: 38%;
+    background-color:transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 2.4em;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: inherit;
+    border-radius: 47px;
+   margin-bottom: 30px;
+
+}
+.bonus-button2:hover {
+    background-color: #00f921;
+    box-shadow:  0 0  30px white;
+    text-shadow: 0 0  40px white;
+    border: none;
+    
+}
+.bonus-button {
+    background-color: #d83c8a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4em;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: inherit;
+    border-radius: 35px;
+}
+
+.bonus-button:hover {
+    background-color: #f9007c;
+    box-shadow:  0 0  30px white;
+    text-shadow: 0 0  40px white;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #fffdfe;
+    font-size: 30px;
+    text-align: center;
+}
+section p {
+    text-align: center;
+    color: #fff;
+    font-size: 23px;
+}
+.sector {
+    background-color: #de43de;
+    box-shadow: 0 0 20px black;
+    margin: 2% 7%;
+    border-radius: 50px;
+}
+#features {
+    text-align: center;
+    color: #fff;
+    font-size: 23px;
+    background-color: #de43de;
+    box-shadow: 0 0 20px black;
+    margin: 0 7%;
+    border-radius: 50px;
+}
+#features ul li {
+ list-style-type: none;
+}
+
+ .img {
+   box-shadow: 0 0 20px black;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 50px;
+}
+.img-p {
+    position: relative;
+}
+.img-p a {
+    position: absolute;
+    bottom:56px;
+    left: 41.5%;
+    background-color: transparent;
+    color: #fff;
+    padding: 9px 23px;
+    border: none;
+    font-size: 1.7em;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: inherit;
+    border-radius: 35px;
+    margin-right: 60px;
+    font-weight: 700;
+}
+.img-p a:hover {
+    background-color: #42ca4b;
+}
+.container-table {
+    box-shadow: 0 0 20px black;
+    background-color: #de43de;
+    margin: 1% 7%;
+    
+}
+#bonuses button{
+ margin: 20px 43%;
+}
+table {
+    margin: 1% 7%;
+    border-collapse: collapse;
+ 
+}
+td {
+    color: #fff;
+    background-color: #de43de;
+}
+table, th, td {
+    border: 5px double #ddd;
+    padding: 10px;
+    
+}
+
+th {
+    background-color: #f4f4f4;
+    font-size: 21px;
+}
+.download a {
+    margin: 0 44%;
+    
+    
+}
+footer {
+   
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 300px) {
+    .download a {
+        margin: 0 15%;
+    }
+    .bonus-button2 {
+        bottom: 56px;
+    left: 28%;
+    font-size: 0.6em;
+    }
+}
+@media (max-width: 560px) {
+    .nav {
+        display: block;
+       
+    }
+}
+@media (max-width: 390px) {
+    .nav-dow {
+display: none;
+    }
+}
+@media (max-width: 399px) {
+    .hero h1 {
+        font-size: 37px;}
+}
+@media (max-width: 1490px){
+    .download a {
+        margin: 0 30%;
+    }
+    
+}
+@media (max-width: 474px){
+    .download a {
+        margin: 0 20%;
+    }
+}
+@media (max-width: 1468px){
+    .bonus-button2 {
+        display: none;
+    }
+}
+@media (max-width: 375px){
+    .bonus-button2 {
+        position: absolute;
+        bottom:  177px;
+        left: 38%;
+        background-color:transparent;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 2.4em;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: inherit;
+        border-radius: 47px;
+       margin-bottom: 30px;
+
+    }
+}
+@media (max-width: 1468px){
+    .img-p a {
+        display: none;
+    }
+}
